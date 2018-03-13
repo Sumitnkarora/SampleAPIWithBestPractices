@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI", "SampleAPI\SampleAPI.csproj", "{7AFFDD18-4D60-4EB8-8F98-6E1879931AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI.BLL", "SampleAPI.BLL\SampleAPI.BLL.csproj", "{5D79E82B-B381-4D66-B97D-EA4D95E9B7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI.DTO", "SampleAPI.DTO\SampleAPI.DTO.csproj", "{8D3D09EE-14C6-4D6F-8E88-E5992D61B794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI.DAL", "SampleAPI.DAL\SampleAPI.DAL.csproj", "{3912E594-98C1-4981-9C86-803352BFCE15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AFFDD18-4D60-4EB8-8F98-6E1879931AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFFDD18-4D60-4EB8-8F98-6E1879931AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFFDD18-4D60-4EB8-8F98-6E1879931AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFFDD18-4D60-4EB8-8F98-6E1879931AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D79E82B-B381-4D66-B97D-EA4D95E9B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D79E82B-B381-4D66-B97D-EA4D95E9B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D79E82B-B381-4D66-B97D-EA4D95E9B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D79E82B-B381-4D66-B97D-EA4D95E9B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3D09EE-14C6-4D6F-8E88-E5992D61B794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3D09EE-14C6-4D6F-8E88-E5992D61B794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3D09EE-14C6-4D6F-8E88-E5992D61B794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3D09EE-14C6-4D6F-8E88-E5992D61B794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3912E594-98C1-4981-9C86-803352BFCE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3912E594-98C1-4981-9C86-803352BFCE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3912E594-98C1-4981-9C86-803352BFCE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3912E594-98C1-4981-9C86-803352BFCE15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
